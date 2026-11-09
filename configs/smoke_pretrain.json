@@ -1,0 +1,7 @@
+{
+  "seed": 7,
+  "model": {"taxels": 120, "real_channels": 3, "history": 10, "sim_history": 1, "width": 48, "layers": 2, "heads": 4, "latent": 32, "dropout": 0.0, "use_module_force": true},
+  "batch_size": 32, "epochs": 8, "lr": 0.001,
+  "max_history_gap_s": 0.25,
+  "loss": {"align_weight": 1.0, "recon_weight": 1.0, "force_weight": 1.0, "temperature": 0.1, "alignment": "infonce", "cross_reconstruction": true}
+}
